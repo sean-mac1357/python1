@@ -4,6 +4,6 @@ def hello_world(name):
     
 username = input("What is your name? ")
 
-greeting = hello_world(username)
+greeting = hello_world(username.capitalize())
 
 print(greeting)
